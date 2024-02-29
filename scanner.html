@@ -8,7 +8,91 @@
 <title>Document</title>
 </head>
 <body data-rsssl=1>
-
+    <style>
+        body {margin:0;}
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #ffcc00;
+        
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a, .dropbtn {
+          display: inline-block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        
+        li a:hover:not(.active) {
+          background-color:  #f0e68c ;
+        }
+        .active {
+          background-color: #ffcc00;
+        
+        }
+        li a:hover, .dropdown:hover .dropbtn {
+          background-color: none;
+        }
+        
+        li.dropdown {
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color:white;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+        }
+        
+        .dropdown-content a:hover {background-color: #f1f1f1;}
+        
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+        </style>
+        </head>
+        <body>
+        <style>
+        body {
+          background-color: #7c0a0a;
+        }
+        </style>
+        <font color="#ffcc00" face="calibre">
+        <ul>
+          <li><a class="active" a href=https://scanscribee.wixsite.com/scanscribe>Home</a></li>
+        
+          <li style="float:right"><a href=https://scanscribee.wixsite.com/scanscribe/terms-conditions>Privacy Policy</a></li>
+          <li style="float:right"><a href=tel:09474040965>09474040965</a></li>
+          <li style="float:right"><a href="mailto:scanscribee@gmail.com">scanscribee@gmail.com</a></li>
+        </ul>
+        <br>
+        <br>
+        <br>
+        <br>
+<center>
+        <h1>Welcome to Scanscribe!</h1></font>
+        <font color="white" face="spectral">
+        <h2>Please scan the QR code to borrow.</h2></center></font>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html5-qrcode/2.3.4/html5-qrcode.min.js" integrity="sha512-k/KAe4Yff9EUdYI5/IAHlwUswqeipP+Cp5qnrsUjTPCgl51La2/JhyyjNciztD7mWNKLSXci48m7cctATKfLlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <style>
 main {
@@ -17,7 +101,7 @@ justify-content: center;
 align-items: center;
 }
 #reader {
-width: 600px;
+width: 600px;background-color: #f8f8a1;
 }
 #result {
 text-align: center;
